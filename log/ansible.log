@@ -1,0 +1,1406 @@
+2019-08-09 05:15:52,079 p=1 u=root |  ERROR! the playbook: init.yaml could not be found
+2019-08-09 05:16:28,450 p=1 u=root |  ERROR! the playbook: playbooks/init.yml could not be found
+2019-08-09 05:16:55,149 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:16:55,182 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:17:06,436 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:17:06,679 p=1 u=root |  TASK [Install AS3 RPM] ****************************************************************************************************************
+2019-08-09 05:17:07,710 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] ********************************************************
+2019-08-09 05:17:09,146 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:17:09,364 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] *********************************************************
+2019-08-09 05:17:09,472 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:17:09,647 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] *********************************************************************
+2019-08-09 05:17:09,719 p=1 u=root |  fatal: [10.1.10.11]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'f5app_services_package_server' is undefined\n\nThe error appears to be in '/ansible/roles.galaxy/f5devcentral.f5app_services_package/tasks/main.yaml': line 5, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: Set Connection Facts\n  ^ here\n"}
+2019-08-09 05:17:09,721 p=1 u=root |  NO MORE HOSTS LEFT ********************************************************************************************************************
+2019-08-09 05:17:09,736 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:17:09,737 p=1 u=root |  10.1.10.11                 : ok=2    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2019-08-09 05:19:03,952 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:19:03,995 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:19:11,899 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:19:12,068 p=1 u=root |  TASK [Install AS3 RPM] ****************************************************************************************************************
+2019-08-09 05:19:13,350 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] ********************************************************
+2019-08-09 05:19:14,577 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:19:14,806 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] *********************************************************
+2019-08-09 05:19:14,909 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:19:15,059 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] *********************************************************************
+2019-08-09 05:19:15,128 p=1 u=root |  fatal: [10.1.10.11]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'f5app_services_package_user' is undefined\n\nThe error appears to be in '/ansible/roles.galaxy/f5devcentral.f5app_services_package/tasks/main.yaml': line 5, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: Set Connection Facts\n  ^ here\n"}
+2019-08-09 05:19:15,129 p=1 u=root |  NO MORE HOSTS LEFT ********************************************************************************************************************
+2019-08-09 05:19:15,133 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:19:15,133 p=1 u=root |  10.1.10.11                 : ok=2    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2019-08-09 05:19:47,446 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:19:47,475 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:19:56,487 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:19:56,692 p=1 u=root |  TASK [Install AS3 RPM] ****************************************************************************************************************
+2019-08-09 05:19:57,780 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] ********************************************************
+2019-08-09 05:19:58,949 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:19:59,119 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] *********************************************************
+2019-08-09 05:19:59,180 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:19:59,374 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] *********************************************************************
+2019-08-09 05:19:59,483 p=1 u=root |  fatal: [10.1.10.11]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'f5app_services_package_server_port' is undefined\n\nThe error appears to be in '/ansible/roles.galaxy/f5devcentral.f5app_services_package/tasks/main.yaml': line 5, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: Set Connection Facts\n  ^ here\n"}
+2019-08-09 05:19:59,485 p=1 u=root |  NO MORE HOSTS LEFT ********************************************************************************************************************
+2019-08-09 05:19:59,489 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:19:59,490 p=1 u=root |  10.1.10.11                 : ok=2    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2019-08-09 05:21:22,739 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:21:22,757 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:21:31,168 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:21:31,411 p=1 u=root |  TASK [Install AS3 RPM] ****************************************************************************************************************
+2019-08-09 05:21:32,694 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] ********************************************************
+2019-08-09 05:21:33,932 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:21:34,151 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] *********************************************************
+2019-08-09 05:21:34,206 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:21:34,420 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] *********************************************************************
+2019-08-09 05:21:34,488 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:21:34,693 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] **********************************************************
+2019-08-09 05:21:38,981 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:21:39,150 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] **********************
+2019-08-09 05:21:39,224 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:21:39,431 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] ***********************************
+2019-08-09 05:21:39,523 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:21:39,758 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ****************************
+2019-08-09 05:21:39,838 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:21:40,090 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] **********************
+2019-08-09 05:21:42,665 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:21:42,907 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] *****************
+2019-08-09 05:21:42,999 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:21:43,273 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] *********************************************
+2019-08-09 05:21:44,573 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:21:44,833 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] *******************************************************
+2019-08-09 05:21:49,260 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:21:49,474 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] ********************************************************
+2019-08-09 05:21:49,558 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:21:49,818 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] *******************************************************
+2019-08-09 05:21:49,884 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:21:49,896 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:21:49,897 p=1 u=root |  10.1.10.11                 : ok=7    changed=2    unreachable=0    failed=0    skipped=7    rescued=0    ignored=0   
+2019-08-09 05:24:33,439 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:24:33,467 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:24:43,327 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:24:43,577 p=1 u=root |  TASK [Install AS3 RPM] ****************************************************************************************************************
+2019-08-09 05:24:44,728 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] ********************************************************
+2019-08-09 05:24:45,940 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:24:46,111 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] *********************************************************
+2019-08-09 05:24:46,186 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:24:46,374 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] *********************************************************************
+2019-08-09 05:24:46,464 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:24:46,717 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] **********************************************************
+2019-08-09 05:24:50,975 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:24:51,223 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] **********************
+2019-08-09 05:24:51,363 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:24:51,592 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] ***********************************
+2019-08-09 05:24:51,679 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:24:51,849 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ****************************
+2019-08-09 05:24:51,938 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:24:52,187 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] **********************
+2019-08-09 05:24:54,836 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:24:55,059 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] *****************
+2019-08-09 05:24:55,113 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:24:55,340 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] *********************************************
+2019-08-09 05:24:56,553 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:24:56,818 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] *******************************************************
+2019-08-09 05:25:01,321 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:25:01,507 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] ********************************************************
+2019-08-09 05:25:01,597 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:25:01,824 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] *******************************************************
+2019-08-09 05:25:01,880 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:25:01,888 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:25:01,889 p=1 u=root |  10.1.10.11                 : ok=7    changed=2    unreachable=0    failed=0    skipped=7    rescued=0    ignored=0   
+2019-08-09 05:25:36,894 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:25:36,922 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:25:45,686 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:25:46,455 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:25:49,087 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:25:49,317 p=1 u=root |  TASK [Install AS3 RPM] ****************************************************************************************************************
+2019-08-09 05:25:51,339 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] ********************************************************
+2019-08-09 05:25:52,805 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:25:52,808 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:25:52,881 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:25:53,084 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] *********************************************************
+2019-08-09 05:25:53,358 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:25:53,612 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:25:53,686 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:25:53,917 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] *********************************************************************
+2019-08-09 05:25:54,199 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:25:54,402 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:25:54,451 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:25:54,657 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] **********************************************************
+2019-08-09 05:25:58,912 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:25:59,044 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:25:59,575 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:25:59,809 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] **********************
+2019-08-09 05:25:59,987 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:26:00,165 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:26:00,249 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:26:00,460 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] ***********************************
+2019-08-09 05:26:00,763 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:26:00,965 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:26:01,044 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:26:01,295 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ****************************
+2019-08-09 05:26:01,508 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:26:01,649 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:26:01,705 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:26:01,952 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] **********************
+2019-08-09 05:26:04,134 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:26:04,463 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:26:04,617 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:26:04,910 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] *****************
+2019-08-09 05:26:05,187 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:26:05,419 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:26:05,484 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:26:05,619 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] *********************************************
+2019-08-09 05:26:06,734 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:26:06,793 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:26:06,837 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:26:07,108 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] *******************************************************
+2019-08-09 05:26:10,569 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:26:11,512 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:26:11,529 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:26:11,784 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] ********************************************************
+2019-08-09 05:26:12,090 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:26:12,312 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:26:12,372 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:26:12,601 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] *******************************************************
+2019-08-09 05:26:12,889 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:26:13,010 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:26:13,044 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:26:13,062 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:26:13,063 p=1 u=root |  10.1.10.11                 : ok=7    changed=1    unreachable=0    failed=0    skipped=7    rescued=0    ignored=0   
+2019-08-09 05:26:13,063 p=1 u=root |  10.1.10.12                 : ok=7    changed=2    unreachable=0    failed=0    skipped=7    rescued=0    ignored=0   
+2019-08-09 05:26:13,064 p=1 u=root |  10.1.10.13                 : ok=7    changed=1    unreachable=0    failed=0    skipped=7    rescued=0    ignored=0   
+2019-08-09 05:26:55,524 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:26:55,567 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:26:59,886 p=1 u=root |   [WARNING]: Unhandled error in Python interpreter discovery for host 10.1.10.31: Failed to connect to the host via ssh: ssh: connect
+to host 10.1.10.31 port 22: Host is unreachable
+
+2019-08-09 05:27:01,982 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:27:02,884 p=1 u=root |  fatal: [10.1.10.31]: UNREACHABLE! => {"changed": false, "msg": "Data could not be sent to remote host \"10.1.10.31\". Make sure this host can be reached over ssh: ssh: connect to host 10.1.10.31 port 22: Host is unreachable\r\n", "unreachable": true}
+2019-08-09 05:27:04,034 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:27:04,176 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:27:09,012 p=1 u=root |  ok: [10.1.10.33]
+2019-08-09 05:27:09,014 p=1 u=root |  NO MORE HOSTS LEFT ********************************************************************************************************************
+2019-08-09 05:27:09,023 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:27:09,024 p=1 u=root |  10.1.10.11                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:27:09,024 p=1 u=root |  10.1.10.12                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:27:09,025 p=1 u=root |  10.1.10.13                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:27:09,025 p=1 u=root |  10.1.10.31                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:27:09,026 p=1 u=root |  10.1.10.33                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:27:40,142 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:27:40,175 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:27:48,213 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:27:48,390 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:27:48,775 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:27:51,425 p=1 u=root |   [WARNING]: Unhandled error in Python interpreter discovery for host 10.1.10.31: Failed to connect to the host via ssh: ssh: connect
+to host 10.1.10.31 port 22: Host is unreachable
+
+2019-08-09 05:27:51,826 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:27:54,511 p=1 u=root |  fatal: [10.1.10.31]: UNREACHABLE! => {"changed": false, "msg": "Data could not be sent to remote host \"10.1.10.31\". Make sure this host can be reached over ssh: ssh: connect to host 10.1.10.31 port 22: Host is unreachable\r\n", "unreachable": true}
+2019-08-09 05:27:54,971 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:27:56,114 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:27:58,207 p=1 u=root |  ok: [10.1.10.33]
+2019-08-09 05:27:58,210 p=1 u=root |  NO MORE HOSTS LEFT ********************************************************************************************************************
+2019-08-09 05:27:58,214 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:27:58,214 p=1 u=root |  10.1.10.11                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:27:58,214 p=1 u=root |  10.1.10.12                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:27:58,214 p=1 u=root |  10.1.10.13                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:27:58,215 p=1 u=root |  10.1.10.21                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:27:58,215 p=1 u=root |  10.1.10.22                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:27:58,215 p=1 u=root |  10.1.10.23                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:27:58,215 p=1 u=root |  10.1.10.31                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:27:58,216 p=1 u=root |  10.1.10.33                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:35:11,790 p=1 u=root |  ERROR! Syntax Error while loading YAML.
+  did not find expected key
+
+The error appears to be in '/ansible/playbooks/init.yml': line 23, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+   - name: Download and Install DO RPM
+   ^ here
+
+2019-08-09 05:37:46,344 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:37:46,377 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:37:53,478 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:37:54,484 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:37:55,039 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:37:55,147 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:37:57,509 p=1 u=root |   [WARNING]: Unhandled error in Python interpreter discovery for host 10.1.10.31: Failed to connect to the host via ssh: ssh: connect
+to host 10.1.10.31 port 22: Host is unreachable
+
+2019-08-09 05:37:58,615 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:37:59,747 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:38:00,513 p=1 u=root |  fatal: [10.1.10.31]: UNREACHABLE! => {"changed": false, "msg": "Data could not be sent to remote host \"10.1.10.31\". Make sure this host can be reached over ssh: ssh: connect to host 10.1.10.31 port 22: Host is unreachable\r\n", "unreachable": true}
+2019-08-09 05:38:02,519 p=1 u=root |  ok: [10.1.10.33]
+2019-08-09 05:38:02,522 p=1 u=root |  NO MORE HOSTS LEFT ********************************************************************************************************************
+2019-08-09 05:38:02,529 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:38:02,530 p=1 u=root |  10.1.10.11                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:38:02,531 p=1 u=root |  10.1.10.12                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:38:02,531 p=1 u=root |  10.1.10.13                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:38:02,531 p=1 u=root |  10.1.10.21                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:38:02,532 p=1 u=root |  10.1.10.22                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:38:02,532 p=1 u=root |  10.1.10.23                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:38:02,532 p=1 u=root |  10.1.10.31                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:38:02,533 p=1 u=root |  10.1.10.33                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:41:21,271 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:41:21,344 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:41:28,368 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:41:28,915 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:41:30,110 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:41:30,292 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:41:30,726 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:41:32,029 p=1 u=root |   [WARNING]: Unhandled error in Python interpreter discovery for host 10.1.10.31: Failed to connect to the host via ssh: ssh: connect
+to host 10.1.10.31 port 22: Host is unreachable
+
+2019-08-09 05:41:34,249 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:41:35,241 p=1 u=root |  ok: [10.1.10.33]
+2019-08-09 05:41:35,244 p=1 u=root |  fatal: [10.1.10.31]: UNREACHABLE! => {"changed": false, "msg": "Data could not be sent to remote host \"10.1.10.31\". Make sure this host can be reached over ssh: ssh: connect to host 10.1.10.31 port 22: Host is unreachable\r\n", "unreachable": true}
+2019-08-09 05:41:35,246 p=1 u=root |  NO MORE HOSTS LEFT ********************************************************************************************************************
+2019-08-09 05:41:35,250 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:41:35,251 p=1 u=root |  10.1.10.11                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:41:35,252 p=1 u=root |  10.1.10.12                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:41:35,253 p=1 u=root |  10.1.10.13                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:41:35,254 p=1 u=root |  10.1.10.21                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:41:35,255 p=1 u=root |  10.1.10.22                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:41:35,256 p=1 u=root |  10.1.10.23                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:41:35,257 p=1 u=root |  10.1.10.31                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:41:35,258 p=1 u=root |  10.1.10.33                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:42:33,104 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:42:33,145 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:42:40,639 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:42:40,702 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:42:41,367 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:42:41,700 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:42:41,804 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:42:43,754 p=1 u=root |   [WARNING]: Unhandled error in Python interpreter discovery for host 10.1.10.31: Failed to connect to the host via ssh: ssh: connect
+to host 10.1.10.31 port 22: Host is unreachable
+
+2019-08-09 05:42:46,772 p=1 u=root |  fatal: [10.1.10.31]: UNREACHABLE! => {"changed": false, "msg": "Data could not be sent to remote host \"10.1.10.31\". Make sure this host can be reached over ssh: ssh: connect to host 10.1.10.31 port 22: Host is unreachable\r\n", "unreachable": true}
+2019-08-09 05:42:46,959 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:42:48,259 p=1 u=root |  ok: [10.1.10.33]
+2019-08-09 05:42:48,261 p=1 u=root |  NO MORE HOSTS LEFT ********************************************************************************************************************
+2019-08-09 05:42:48,264 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:42:48,264 p=1 u=root |  10.1.10.11                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:42:48,265 p=1 u=root |  10.1.10.12                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:42:48,265 p=1 u=root |  10.1.10.13                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:42:48,266 p=1 u=root |  10.1.10.21                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:42:48,266 p=1 u=root |  10.1.10.22                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:42:48,266 p=1 u=root |  10.1.10.23                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:42:48,267 p=1 u=root |  10.1.10.31                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:42:48,267 p=1 u=root |  10.1.10.33                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:44:06,795 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:44:06,834 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:44:13,934 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:44:14,398 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:44:14,541 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:44:14,857 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:44:15,406 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:44:17,444 p=1 u=root |   [WARNING]: Unhandled error in Python interpreter discovery for host 10.1.10.31: Failed to connect to the host via ssh: ssh: connect
+to host 10.1.10.31 port 22: Host is unreachable
+
+2019-08-09 05:44:20,323 p=1 u=root |  ok: [10.1.10.33]
+2019-08-09 05:44:20,529 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:44:20,536 p=1 u=root |  fatal: [10.1.10.31]: UNREACHABLE! => {"changed": false, "msg": "Data could not be sent to remote host \"10.1.10.31\". Make sure this host can be reached over ssh: ssh: connect to host 10.1.10.31 port 22: Host is unreachable\r\n", "unreachable": true}
+2019-08-09 05:44:20,540 p=1 u=root |  NO MORE HOSTS LEFT ********************************************************************************************************************
+2019-08-09 05:44:20,544 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:44:20,545 p=1 u=root |  10.1.10.11                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:44:20,546 p=1 u=root |  10.1.10.12                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:44:20,546 p=1 u=root |  10.1.10.13                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:44:20,547 p=1 u=root |  10.1.10.21                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:44:20,547 p=1 u=root |  10.1.10.22                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:44:20,548 p=1 u=root |  10.1.10.23                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:44:20,548 p=1 u=root |  10.1.10.31                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:44:20,548 p=1 u=root |  10.1.10.33                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:46:46,393 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:46:46,427 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:46:53,810 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:46:53,901 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:46:53,984 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:46:55,048 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:46:55,753 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:46:56,997 p=1 u=root |   [WARNING]: Unhandled error in Python interpreter discovery for host 10.1.10.31: Failed to connect to the host via ssh: ssh: connect
+to host 10.1.10.31 port 22: Host is unreachable
+
+2019-08-09 05:46:59,325 p=1 u=root |  ok: [10.1.10.33]
+2019-08-09 05:47:00,066 p=1 u=root |  fatal: [10.1.10.31]: UNREACHABLE! => {"changed": false, "msg": "Data could not be sent to remote host \"10.1.10.31\". Make sure this host can be reached over ssh: ssh: connect to host 10.1.10.31 port 22: Host is unreachable\r\n", "unreachable": true}
+2019-08-09 05:47:00,624 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:47:00,626 p=1 u=root |  NO MORE HOSTS LEFT ********************************************************************************************************************
+2019-08-09 05:47:00,629 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:47:00,630 p=1 u=root |  10.1.10.11                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:47:00,630 p=1 u=root |  10.1.10.12                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:47:00,631 p=1 u=root |  10.1.10.13                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:47:00,631 p=1 u=root |  10.1.10.21                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:47:00,631 p=1 u=root |  10.1.10.22                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:47:00,632 p=1 u=root |  10.1.10.23                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:47:00,632 p=1 u=root |  10.1.10.31                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:47:00,633 p=1 u=root |  10.1.10.33                 : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-08-09 05:47:21,606 p=1 u=root |  PLAY [Download and Install RPMs] ******************************************************************************************************
+2019-08-09 05:47:21,650 p=1 u=root |  TASK [Gathering Facts] ****************************************************************************************************************
+2019-08-09 05:47:29,093 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:47:29,557 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:47:29,665 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:47:30,345 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:47:30,382 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:47:35,074 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:47:35,288 p=1 u=root |  TASK [Install AS3 RPM] ****************************************************************************************************************
+2019-08-09 05:47:38,768 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] ********************************************************
+2019-08-09 05:47:40,258 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:47:40,326 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-09 05:47:40,399 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:47:40,463 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:47:40,525 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-09 05:47:40,815 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-09 05:47:41,000 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] *********************************************************
+2019-08-09 05:47:41,225 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:47:41,435 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:47:41,561 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:47:41,857 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:47:41,995 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:47:42,084 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:47:42,337 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] *********************************************************************
+2019-08-09 05:47:42,593 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:47:42,783 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:47:42,946 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:47:43,191 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:47:43,395 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:47:43,495 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:47:43,738 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] **********************************************************
+2019-08-09 05:47:47,948 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:47:48,102 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:47:48,294 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:47:48,328 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:47:48,658 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:47:51,348 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:47:51,567 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] **********************
+2019-08-09 05:47:51,775 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:47:51,960 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:47:52,133 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:47:52,388 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:47:52,569 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:47:52,651 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:47:52,906 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] ***********************************
+2019-08-09 05:47:53,206 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:47:53,392 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:47:53,533 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:47:53,791 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:47:53,912 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:47:53,978 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:47:54,207 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ****************************
+2019-08-09 05:47:54,477 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:47:54,640 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:47:54,942 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:47:55,167 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:47:55,170 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:47:55,216 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:47:55,471 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] **********************
+2019-08-09 05:47:58,446 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:47:58,545 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:47:58,710 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:47:58,785 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:47:58,850 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:47:59,490 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:47:59,646 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] *****************
+2019-08-09 05:47:59,835 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:47:59,997 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:48:00,229 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:48:00,412 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:48:00,416 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:48:00,477 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:48:00,717 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] *********************************************
+2019-08-09 05:48:02,009 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:48:02,039 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:48:02,048 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:48:02,080 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:48:02,275 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:48:02,467 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:48:02,689 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] *******************************************************
+2019-08-09 05:48:06,691 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:48:07,153 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:48:07,425 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:48:07,482 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:48:07,762 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:48:09,344 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:48:09,595 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] ********************************************************
+2019-08-09 05:48:09,843 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:48:10,010 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:48:10,153 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:48:10,416 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:48:10,643 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:48:10,709 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:48:10,925 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] *******************************************************
+2019-08-09 05:48:11,134 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:48:11,395 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:48:11,604 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:48:11,889 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:48:12,127 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:48:12,189 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:48:12,433 p=1 u=root |  TASK [Download and Install DO RPM] ****************************************************************************************************
+2019-08-09 05:48:14,642 p=1 u=root |  ERROR! the role 'ansible-role-f5app_services_package' was not found in /ansible/playbooks/roles:/ansible/roles:/ansible/roles.galaxy:/ansible/playbooks
+
+The error appears to be in '/ansible/playbooks/init.yml': line 25, column 15, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+      include_role:
+        name: ansible-role-f5app_services_package
+              ^ here
+
+2019-08-09 05:48:14,665 p=1 u=root |  PLAY RECAP ****************************************************************************************************************************
+2019-08-09 05:48:14,666 p=1 u=root |  10.1.10.11                 : ok=7    changed=1    unreachable=0    failed=0    skipped=7    rescued=0    ignored=0   
+2019-08-09 05:48:14,666 p=1 u=root |  10.1.10.12                 : ok=7    changed=2    unreachable=0    failed=0    skipped=7    rescued=0    ignored=0   
+2019-08-09 05:48:14,667 p=1 u=root |  10.1.10.13                 : ok=7    changed=1    unreachable=0    failed=0    skipped=7    rescued=0    ignored=0   
+2019-08-09 05:48:14,667 p=1 u=root |  10.1.10.21                 : ok=7    changed=1    unreachable=0    failed=0    skipped=7    rescued=0    ignored=0   
+2019-08-09 05:48:14,667 p=1 u=root |  10.1.10.22                 : ok=7    changed=1    unreachable=0    failed=0    skipped=7    rescued=0    ignored=0   
+2019-08-09 05:48:14,668 p=1 u=root |  10.1.10.23                 : ok=7    changed=1    unreachable=0    failed=0    skipped=7    rescued=0    ignored=0   
+2019-08-09 05:49:51,030 p=1 u=root |  PLAY [Download and Install RPMs] *****************************************************************************************************************************
+2019-08-09 05:49:51,062 p=1 u=root |  TASK [Gathering Facts] ***************************************************************************************************************************************
+2019-08-09 05:49:58,720 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:49:59,108 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:49:59,150 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:49:59,647 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:49:59,703 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:50:06,320 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:50:06,570 p=1 u=root |  TASK [Install AS3 RPM] ***************************************************************************************************************************************
+2019-08-09 05:50:09,666 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] *******************************************************************************
+2019-08-09 05:50:10,828 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-09 05:50:10,922 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:50:10,929 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:50:11,002 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:50:11,046 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-09 05:50:11,420 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-09 05:50:11,630 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] ********************************************************************************
+2019-08-09 05:50:11,844 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:50:12,072 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:50:12,344 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:50:12,545 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:50:12,724 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:50:12,779 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:50:13,004 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] ********************************************************************************************
+2019-08-09 05:50:13,248 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:50:13,458 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:50:13,719 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:50:13,936 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:50:14,114 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:50:14,190 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:50:14,411 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] *********************************************************************************
+2019-08-09 05:50:18,179 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:50:18,536 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:50:18,666 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:50:18,925 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:50:19,053 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:50:21,311 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:50:21,526 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] *********************************************
+2019-08-09 05:50:21,717 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:50:21,859 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:50:22,085 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:50:22,367 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:50:22,580 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:50:22,644 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:50:22,893 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] **********************************************************
+2019-08-09 05:50:23,161 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:50:23,294 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:50:23,452 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:50:23,657 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:50:23,811 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:50:23,895 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:50:24,180 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ***************************************************
+2019-08-09 05:50:24,517 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:50:24,692 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:50:24,871 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:50:25,053 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:50:25,248 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:50:25,336 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:50:25,599 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] *********************************************
+2019-08-09 05:50:28,424 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:50:28,570 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:50:28,629 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:50:28,764 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:50:28,882 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:50:29,672 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:50:29,912 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] ****************************************
+2019-08-09 05:50:30,200 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:50:30,399 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:50:30,622 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:50:30,856 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:50:31,048 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:50:31,134 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:50:31,242 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] ********************************************************************
+2019-08-09 05:50:32,643 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:50:32,647 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:50:32,701 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:50:32,767 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:50:32,770 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:50:33,111 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:50:33,321 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] ******************************************************************************
+2019-08-09 05:50:37,301 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:50:37,404 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:50:37,536 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:50:37,661 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:50:37,821 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:50:39,406 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:50:39,668 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] *******************************************************************************
+2019-08-09 05:50:39,948 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:50:40,061 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:50:40,354 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:50:40,606 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:50:40,825 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:50:40,903 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:50:41,172 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] ******************************************************************************
+2019-08-09 05:50:41,431 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:50:41,602 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:50:41,856 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:50:42,111 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:50:42,355 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:50:42,406 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:50:42,620 p=1 u=root |  TASK [Download and Install DO RPM] ***************************************************************************************************************************
+2019-08-09 05:50:45,297 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] *******************************************************************************
+2019-08-09 05:50:46,060 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:50:46,396 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:50:46,477 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:50:46,622 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-09 05:50:46,754 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-09 05:50:46,966 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-09 05:50:47,226 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] ********************************************************************************
+2019-08-09 05:50:47,499 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:50:47,711 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:50:47,993 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:50:48,228 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:50:48,416 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:50:48,465 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:50:48,707 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] ********************************************************************************************
+2019-08-09 05:50:48,980 p=1 u=root |  fatal: [10.1.10.11]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'f5app_services_package_server' is undefined\n\nThe error appears to be in '/ansible/roles.galaxy/f5devcentral.f5app_services_package/tasks/main.yaml': line 5, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: Set Connection Facts\n  ^ here\n"}
+2019-08-09 05:50:49,192 p=1 u=root |  fatal: [10.1.10.12]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'f5app_services_package_server' is undefined\n\nThe error appears to be in '/ansible/roles.galaxy/f5devcentral.f5app_services_package/tasks/main.yaml': line 5, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: Set Connection Facts\n  ^ here\n"}
+2019-08-09 05:50:49,456 p=1 u=root |  fatal: [10.1.10.13]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'f5app_services_package_server' is undefined\n\nThe error appears to be in '/ansible/roles.galaxy/f5devcentral.f5app_services_package/tasks/main.yaml': line 5, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: Set Connection Facts\n  ^ here\n"}
+2019-08-09 05:50:49,748 p=1 u=root |  fatal: [10.1.10.21]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'f5app_services_package_server' is undefined\n\nThe error appears to be in '/ansible/roles.galaxy/f5devcentral.f5app_services_package/tasks/main.yaml': line 5, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: Set Connection Facts\n  ^ here\n"}
+2019-08-09 05:50:49,874 p=1 u=root |  fatal: [10.1.10.22]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'f5app_services_package_server' is undefined\n\nThe error appears to be in '/ansible/roles.galaxy/f5devcentral.f5app_services_package/tasks/main.yaml': line 5, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: Set Connection Facts\n  ^ here\n"}
+2019-08-09 05:50:49,991 p=1 u=root |  fatal: [10.1.10.23]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'f5app_services_package_server' is undefined\n\nThe error appears to be in '/ansible/roles.galaxy/f5devcentral.f5app_services_package/tasks/main.yaml': line 5, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: Set Connection Facts\n  ^ here\n"}
+2019-08-09 05:50:50,004 p=1 u=root |  PLAY RECAP ***************************************************************************************************************************************************
+2019-08-09 05:50:50,005 p=1 u=root |  10.1.10.11                 : ok=8    changed=2    unreachable=0    failed=1    skipped=8    rescued=0    ignored=0   
+2019-08-09 05:50:50,007 p=1 u=root |  10.1.10.12                 : ok=8    changed=3    unreachable=0    failed=1    skipped=8    rescued=0    ignored=0   
+2019-08-09 05:50:50,007 p=1 u=root |  10.1.10.13                 : ok=8    changed=2    unreachable=0    failed=1    skipped=8    rescued=0    ignored=0   
+2019-08-09 05:50:50,008 p=1 u=root |  10.1.10.21                 : ok=8    changed=2    unreachable=0    failed=1    skipped=8    rescued=0    ignored=0   
+2019-08-09 05:50:50,008 p=1 u=root |  10.1.10.22                 : ok=8    changed=2    unreachable=0    failed=1    skipped=8    rescued=0    ignored=0   
+2019-08-09 05:50:50,009 p=1 u=root |  10.1.10.23                 : ok=8    changed=2    unreachable=0    failed=1    skipped=8    rescued=0    ignored=0   
+2019-08-09 05:52:19,040 p=1 u=root |  PLAY [Download and Install RPMs] *****************************************************************************************************************************
+2019-08-09 05:52:19,081 p=1 u=root |  TASK [Gathering Facts] ***************************************************************************************************************************************
+2019-08-09 05:52:26,511 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:52:26,821 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:52:27,359 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:52:27,832 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:52:28,184 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:52:33,653 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:52:33,896 p=1 u=root |  TASK [Install AS3 RPM] ***************************************************************************************************************************************
+2019-08-09 05:52:37,440 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] *******************************************************************************
+2019-08-09 05:52:38,645 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:52:38,652 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:52:38,702 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:52:38,852 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-09 05:52:39,132 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-09 05:52:39,317 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-09 05:52:39,508 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] ********************************************************************************
+2019-08-09 05:52:39,706 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:52:39,831 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:52:40,091 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:52:40,302 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:52:40,501 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:52:40,600 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:52:40,798 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] ********************************************************************************************
+2019-08-09 05:52:41,052 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:52:41,275 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:52:41,572 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:52:41,816 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:52:42,060 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:52:42,149 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:52:42,415 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] *********************************************************************************
+2019-08-09 05:52:46,950 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:52:46,953 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:52:47,023 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:52:47,077 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:52:47,333 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:52:50,186 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:52:50,418 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] *********************************************
+2019-08-09 05:52:50,681 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:52:50,883 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:52:51,143 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:52:51,323 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:52:51,460 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:52:51,521 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:52:51,758 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] **********************************************************
+2019-08-09 05:52:51,975 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:52:52,305 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:52:52,469 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:52:52,671 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:52:52,674 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:52:52,771 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:52:53,009 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ***************************************************
+2019-08-09 05:52:53,222 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:52:53,416 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:52:53,669 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:52:53,931 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:52:54,153 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:52:54,240 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:52:54,502 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] *********************************************
+2019-08-09 05:52:57,511 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:52:57,686 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:52:57,796 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:52:57,841 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:52:58,077 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:52:58,715 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:52:58,962 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] ****************************************
+2019-08-09 05:52:59,182 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:52:59,327 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:52:59,574 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:52:59,837 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:53:00,061 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:53:00,168 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:53:00,358 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] ********************************************************************
+2019-08-09 05:53:01,690 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:53:01,699 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:53:01,702 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:53:01,840 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:53:02,126 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:53:02,196 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:53:02,376 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] ******************************************************************************
+2019-08-09 05:53:06,412 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:53:06,996 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:53:07,022 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:53:07,078 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:53:07,843 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:53:09,189 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:53:09,292 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] *******************************************************************************
+2019-08-09 05:53:09,588 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:53:09,804 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:53:10,030 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:53:10,315 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:53:10,425 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:53:10,499 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:53:10,705 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] ******************************************************************************
+2019-08-09 05:53:10,953 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:53:11,216 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:53:11,475 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:53:11,774 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:53:11,914 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:53:11,985 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:53:12,231 p=1 u=root |  TASK [Download and Install DO RPM] ***************************************************************************************************************************
+2019-08-09 05:53:15,886 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] *******************************************************************************
+2019-08-09 05:53:16,568 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:53:16,754 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:53:16,757 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:53:16,987 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-09 05:53:17,113 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-09 05:53:17,354 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-09 05:53:17,619 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] ********************************************************************************
+2019-08-09 05:53:17,887 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:53:18,112 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:53:18,417 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:53:18,714 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:53:18,858 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:53:18,906 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:53:19,164 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] ********************************************************************************************
+2019-08-09 05:53:19,408 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:53:19,636 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:53:19,827 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:53:20,082 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:53:20,288 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:53:20,371 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:53:20,623 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] *********************************************************************************
+2019-08-09 05:53:24,047 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:53:24,419 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:53:24,603 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:53:24,606 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:53:24,608 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:53:27,219 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:53:27,461 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] *********************************************
+2019-08-09 05:53:27,827 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:53:27,961 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:53:28,212 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:53:28,453 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:53:28,685 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:53:28,765 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:53:29,001 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] **********************************************************
+2019-08-09 05:53:29,291 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:53:29,475 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:53:29,736 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:53:29,975 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:53:30,205 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:53:30,281 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:53:30,554 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ***************************************************
+2019-08-09 05:53:30,832 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:53:30,997 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:53:31,261 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:53:31,565 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:53:31,790 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:53:31,864 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:53:32,111 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] *********************************************
+2019-08-09 05:53:33,804 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:53:33,820 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:53:33,905 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:53:33,907 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:53:33,930 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:53:34,694 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:53:34,838 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] ****************************************
+2019-08-09 05:53:35,078 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:53:35,292 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:53:35,494 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:53:35,745 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:53:35,919 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:53:35,977 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:53:36,206 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] ********************************************************************
+2019-08-09 05:53:36,714 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:53:36,999 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:53:37,261 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:53:37,475 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:53:37,668 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:53:37,935 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:53:38,235 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] ******************************************************************************
+2019-08-09 05:53:47,166 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:53:48,503 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-09 05:53:50,365 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:53:50,578 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-09 05:53:51,132 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:53:53,924 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-09 05:53:54,151 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] *******************************************************************************
+2019-08-09 05:53:54,394 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:53:54,567 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:53:54,835 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:53:55,062 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:53:55,279 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:53:55,349 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:53:55,607 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] ******************************************************************************
+2019-08-09 05:53:55,844 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:53:56,010 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:53:56,181 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:53:56,366 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:53:56,545 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:53:56,773 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:53:57,095 p=1 u=root |  TASK [Download and Install TS RPM] ***************************************************************************************************************************
+2019-08-09 05:54:00,281 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] *******************************************************************************
+2019-08-09 05:54:00,903 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:54:01,186 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:54:01,372 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:54:01,453 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-09 05:54:01,691 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-09 05:54:01,951 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-09 05:54:02,156 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] ********************************************************************************
+2019-08-09 05:54:02,304 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:54:02,414 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:54:02,596 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:54:02,849 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:54:03,057 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:54:03,100 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:54:03,278 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] ********************************************************************************************
+2019-08-09 05:54:03,524 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:54:03,734 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:54:03,972 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:54:04,187 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:54:04,360 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:54:04,441 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:54:04,718 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] *********************************************************************************
+2019-08-09 05:54:08,560 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:54:08,565 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:54:08,760 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:54:08,785 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:54:08,819 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:54:12,998 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:54:13,165 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] *********************************************
+2019-08-09 05:54:13,435 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:54:13,642 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:54:13,877 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:54:14,142 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:54:14,347 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:54:14,429 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:54:14,671 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] **********************************************************
+2019-08-09 05:54:14,933 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:54:15,101 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:54:15,275 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:54:15,455 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:54:15,648 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:54:15,749 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:54:16,013 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ***************************************************
+2019-08-09 05:54:16,301 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:54:16,457 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:54:16,628 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:54:16,853 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:54:17,086 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:54:17,159 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:54:17,401 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] *********************************************
+2019-08-09 05:54:18,820 p=1 u=root |  fatal: [10.1.10.11 -> localhost]: FAILED! => {"changed": false, "msg": "Unable to find a checksum for file 'f5-telemetry-1.5.0-1.noarch.rpm' in 'https://github.com/F5Networks/f5-telemetry-streaming/blob/master/dist/f5-telemetry-1.5.0-1.noarch.rpm.sha256'"}
+2019-08-09 05:54:18,907 p=1 u=root |  fatal: [10.1.10.12 -> localhost]: FAILED! => {"changed": false, "msg": "Unable to find a checksum for file 'f5-telemetry-1.5.0-1.noarch.rpm' in 'https://github.com/F5Networks/f5-telemetry-streaming/blob/master/dist/f5-telemetry-1.5.0-1.noarch.rpm.sha256'"}
+2019-08-09 05:54:19,368 p=1 u=root |  fatal: [10.1.10.13 -> localhost]: FAILED! => {"changed": false, "msg": "Unable to find a checksum for file 'f5-telemetry-1.5.0-1.noarch.rpm' in 'https://github.com/F5Networks/f5-telemetry-streaming/blob/master/dist/f5-telemetry-1.5.0-1.noarch.rpm.sha256'"}
+2019-08-09 05:54:19,691 p=1 u=root |  fatal: [10.1.10.21 -> localhost]: FAILED! => {"changed": false, "msg": "Unable to find a checksum for file 'f5-telemetry-1.5.0-1.noarch.rpm' in 'https://github.com/F5Networks/f5-telemetry-streaming/blob/master/dist/f5-telemetry-1.5.0-1.noarch.rpm.sha256'"}
+2019-08-09 05:54:19,982 p=1 u=root |  fatal: [10.1.10.22 -> localhost]: FAILED! => {"changed": false, "msg": "Unable to find a checksum for file 'f5-telemetry-1.5.0-1.noarch.rpm' in 'https://github.com/F5Networks/f5-telemetry-streaming/blob/master/dist/f5-telemetry-1.5.0-1.noarch.rpm.sha256'"}
+2019-08-09 05:54:20,138 p=1 u=root |  fatal: [10.1.10.23 -> localhost]: FAILED! => {"changed": false, "msg": "Unable to find a checksum for file 'f5-telemetry-1.5.0-1.noarch.rpm' in 'https://github.com/F5Networks/f5-telemetry-streaming/blob/master/dist/f5-telemetry-1.5.0-1.noarch.rpm.sha256'"}
+2019-08-09 05:54:20,146 p=1 u=root |  PLAY RECAP ***************************************************************************************************************************************************
+2019-08-09 05:54:20,147 p=1 u=root |  10.1.10.11                 : ok=16   changed=4    unreachable=0    failed=1    skipped=18   rescued=0    ignored=0   
+2019-08-09 05:54:20,148 p=1 u=root |  10.1.10.12                 : ok=16   changed=5    unreachable=0    failed=1    skipped=18   rescued=0    ignored=0   
+2019-08-09 05:54:20,148 p=1 u=root |  10.1.10.13                 : ok=16   changed=5    unreachable=0    failed=1    skipped=18   rescued=0    ignored=0   
+2019-08-09 05:54:20,148 p=1 u=root |  10.1.10.21                 : ok=16   changed=4    unreachable=0    failed=1    skipped=18   rescued=0    ignored=0   
+2019-08-09 05:54:20,149 p=1 u=root |  10.1.10.22                 : ok=16   changed=4    unreachable=0    failed=1    skipped=18   rescued=0    ignored=0   
+2019-08-09 05:54:20,149 p=1 u=root |  10.1.10.23                 : ok=16   changed=4    unreachable=0    failed=1    skipped=18   rescued=0    ignored=0   
+2019-08-09 05:55:43,736 p=1 u=root |  PLAY [Download and Install RPMs] *****************************************************************************************************************************
+2019-08-09 05:55:43,779 p=1 u=root |  TASK [Gathering Facts] ***************************************************************************************************************************************
+2019-08-09 05:55:50,671 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:55:51,057 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:55:51,628 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:55:52,325 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:55:52,497 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:55:57,353 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:55:57,615 p=1 u=root |  TASK [Install AS3 RPM] ***************************************************************************************************************************************
+2019-08-09 05:56:00,410 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] *******************************************************************************
+2019-08-09 05:56:01,613 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:56:01,777 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:56:01,780 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:56:01,979 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-09 05:56:02,303 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-09 05:56:02,399 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-09 05:56:02,547 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] ********************************************************************************
+2019-08-09 05:56:02,717 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:56:02,905 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:56:03,104 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:56:03,306 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:56:03,467 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:56:03,542 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:56:03,778 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] ********************************************************************************************
+2019-08-09 05:56:04,057 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:56:04,265 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:56:04,510 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:56:04,665 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:56:04,807 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:56:04,872 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:56:05,060 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] *********************************************************************************
+2019-08-09 05:56:08,974 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:56:09,526 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:56:09,549 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:56:09,877 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:56:10,033 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:56:12,207 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:56:12,448 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] *********************************************
+2019-08-09 05:56:12,712 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:56:12,932 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:56:13,204 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:56:13,469 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:56:13,589 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:56:13,690 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:56:13,849 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] **********************************************************
+2019-08-09 05:56:14,018 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:56:14,155 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:56:14,339 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:56:14,541 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:56:14,753 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:56:14,851 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:56:15,108 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ***************************************************
+2019-08-09 05:56:15,367 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:56:15,586 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:56:15,831 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:56:16,103 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:56:16,312 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:56:16,377 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:56:16,631 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] *********************************************
+2019-08-09 05:56:19,588 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-09 05:56:19,760 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:56:19,921 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:56:19,988 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:56:20,002 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:56:20,713 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:56:20,907 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] ****************************************
+2019-08-09 05:56:21,182 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:56:21,386 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:56:21,689 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:56:21,967 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:56:22,186 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:56:22,237 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:56:22,452 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] ********************************************************************
+2019-08-09 05:56:23,870 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:56:23,879 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:56:23,930 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:56:23,937 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:56:24,127 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:56:24,383 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:56:24,565 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] ******************************************************************************
+2019-08-09 05:56:28,700 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:56:29,256 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:56:29,322 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:56:29,974 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:56:30,273 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:56:31,848 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:56:32,052 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] *******************************************************************************
+2019-08-09 05:56:32,327 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:56:32,513 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:56:32,730 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:56:32,976 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:56:33,162 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:56:33,229 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:56:33,352 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] ******************************************************************************
+2019-08-09 05:56:33,587 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:56:33,817 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:56:33,952 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:56:34,213 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:56:34,536 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:56:34,592 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:56:34,766 p=1 u=root |  TASK [Download and Install DO RPM] ***************************************************************************************************************************
+2019-08-09 05:56:37,238 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] *******************************************************************************
+2019-08-09 05:56:37,973 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:56:38,267 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:56:38,501 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:56:38,684 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-09 05:56:38,875 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-09 05:56:39,082 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-09 05:56:39,318 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] ********************************************************************************
+2019-08-09 05:56:39,501 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:56:39,699 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:56:39,961 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:56:40,215 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:56:40,411 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:56:40,459 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:56:40,687 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] ********************************************************************************************
+2019-08-09 05:56:40,884 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:56:41,105 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:56:41,330 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:56:41,609 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:56:41,833 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:56:41,927 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:56:42,200 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] *********************************************************************************
+2019-08-09 05:56:45,876 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:56:45,887 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:56:46,414 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:56:46,448 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:56:46,615 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:56:49,091 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:56:49,333 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] *********************************************
+2019-08-09 05:56:49,577 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:56:49,738 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:56:49,895 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:56:50,101 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:56:50,273 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:56:50,344 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:56:50,542 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] **********************************************************
+2019-08-09 05:56:50,778 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:56:50,947 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:56:51,169 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:56:51,410 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:56:51,607 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:56:51,696 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:56:51,879 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ***************************************************
+2019-08-09 05:56:52,076 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:56:52,244 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:56:52,519 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:56:52,790 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:56:52,984 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:56:53,053 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:56:53,214 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] *********************************************
+2019-08-09 05:56:54,658 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:56:54,696 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:56:54,827 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:56:55,215 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:56:55,378 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:56:55,752 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:56:55,993 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] ****************************************
+2019-08-09 05:56:56,289 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:56:56,514 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:56:56,798 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:56:57,066 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:56:57,309 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:56:57,407 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:56:57,611 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] ********************************************************************
+2019-08-09 05:56:58,180 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:56:58,536 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:56:58,539 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:56:58,656 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:56:58,846 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:56:58,935 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:56:59,100 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] ******************************************************************************
+2019-08-09 05:57:02,083 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:57:02,567 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:57:02,617 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:57:02,691 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:57:02,710 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:57:04,683 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:57:04,865 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] *******************************************************************************
+2019-08-09 05:57:05,163 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:57:05,390 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:57:05,717 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:57:05,929 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:57:06,089 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:57:06,167 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:57:06,437 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] ******************************************************************************
+2019-08-09 05:57:06,729 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:57:06,913 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:57:07,159 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:57:07,382 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:57:07,734 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:57:07,803 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:57:07,967 p=1 u=root |  TASK [Download and Install TS RPM] ***************************************************************************************************************************
+2019-08-09 05:57:11,434 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] *******************************************************************************
+2019-08-09 05:57:12,180 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:57:12,542 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:57:12,785 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:57:12,790 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-09 05:57:13,111 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-09 05:57:13,359 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-09 05:57:13,452 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] ********************************************************************************
+2019-08-09 05:57:13,695 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:57:13,884 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:57:14,228 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:57:14,520 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:57:14,750 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:57:14,802 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:57:15,037 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] ********************************************************************************************
+2019-08-09 05:57:15,218 p=1 u=root |  ok: [10.1.10.11]
+2019-08-09 05:57:15,372 p=1 u=root |  ok: [10.1.10.12]
+2019-08-09 05:57:15,627 p=1 u=root |  ok: [10.1.10.13]
+2019-08-09 05:57:15,844 p=1 u=root |  ok: [10.1.10.21]
+2019-08-09 05:57:16,039 p=1 u=root |  ok: [10.1.10.22]
+2019-08-09 05:57:16,109 p=1 u=root |  ok: [10.1.10.23]
+2019-08-09 05:57:16,349 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] *********************************************************************************
+2019-08-09 05:57:19,872 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:57:19,942 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:57:20,038 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:57:20,108 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:57:20,333 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:57:23,419 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:57:23,639 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] *********************************************
+2019-08-09 05:57:23,879 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:57:24,055 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:57:24,266 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:57:24,449 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:57:24,609 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:57:24,673 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:57:24,928 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] **********************************************************
+2019-08-09 05:57:25,202 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:57:25,425 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:57:25,686 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:57:25,946 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:57:26,160 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:57:26,269 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:57:26,539 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ***************************************************
+2019-08-09 05:57:26,820 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:57:27,086 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:57:27,366 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:57:27,636 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:57:27,856 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:57:27,942 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:57:28,163 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] *********************************************
+2019-08-09 05:57:30,735 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:57:30,861 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:57:30,942 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:57:31,151 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:57:31,156 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:57:31,907 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:57:32,208 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] ****************************************
+2019-08-09 05:57:32,434 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:57:32,665 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:57:32,863 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:57:33,093 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:57:33,253 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:57:33,391 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:57:33,612 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] ********************************************************************
+2019-08-09 05:57:34,063 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-09 05:57:34,339 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-09 05:57:34,610 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-09 05:57:34,839 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-09 05:57:35,058 p=1 u=root |  ok: [10.1.10.22 -> localhost]
+2019-08-09 05:57:35,230 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-09 05:57:35,451 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] ******************************************************************************
+2019-08-09 05:57:47,909 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-09 05:57:52,253 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-09 05:57:53,362 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-09 05:57:53,653 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-09 05:57:53,939 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-09 05:57:58,805 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-09 05:57:59,010 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] *******************************************************************************
+2019-08-09 05:57:59,183 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:57:59,348 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:57:59,594 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:57:59,832 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:58:00,044 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:58:00,107 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:58:00,310 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] ******************************************************************************
+2019-08-09 05:58:00,545 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-09 05:58:00,823 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-09 05:58:01,082 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-09 05:58:01,354 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-09 05:58:01,548 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-09 05:58:01,609 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-09 05:58:01,648 p=1 u=root |  PLAY RECAP ***************************************************************************************************************************************************
+2019-08-09 05:58:01,649 p=1 u=root |  10.1.10.11                 : ok=19   changed=6    unreachable=0    failed=0    skipped=21   rescued=0    ignored=0   
+2019-08-09 05:58:01,650 p=1 u=root |  10.1.10.12                 : ok=19   changed=4    unreachable=0    failed=0    skipped=21   rescued=0    ignored=0   
+2019-08-09 05:58:01,650 p=1 u=root |  10.1.10.13                 : ok=19   changed=4    unreachable=0    failed=0    skipped=21   rescued=0    ignored=0   
+2019-08-09 05:58:01,651 p=1 u=root |  10.1.10.21                 : ok=19   changed=4    unreachable=0    failed=0    skipped=21   rescued=0    ignored=0   
+2019-08-09 05:58:01,651 p=1 u=root |  10.1.10.22                 : ok=19   changed=5    unreachable=0    failed=0    skipped=21   rescued=0    ignored=0   
+2019-08-09 05:58:01,652 p=1 u=root |  10.1.10.23                 : ok=19   changed=4    unreachable=0    failed=0    skipped=21   rescued=0    ignored=0   
+2019-08-10 02:21:34,063 p=1 u=root |  ERROR! the playbook: playbooks/init.yml could not be found
+2019-08-10 02:22:48,137 p=1 u=root |  PLAY [Download and Install RPMs] *****************************************************************************************************************************
+2019-08-10 02:22:48,297 p=1 u=root |  TASK [Gathering Facts] ***************************************************************************************************************************************
+2019-08-10 02:23:02,995 p=1 u=root |  ok: [10.1.10.13]
+2019-08-10 02:23:04,391 p=1 u=root |  ok: [10.1.10.21]
+2019-08-10 02:23:04,697 p=1 u=root |  ok: [10.1.10.12]
+2019-08-10 02:23:05,190 p=1 u=root |  ok: [10.1.10.22]
+2019-08-10 02:23:06,908 p=1 u=root |  ok: [10.1.10.11]
+2019-08-10 02:23:12,687 p=1 u=root |  ok: [10.1.10.23]
+2019-08-10 02:23:12,944 p=1 u=root |  TASK [Install AS3 RPM] ***************************************************************************************************************************************
+2019-08-10 02:23:16,824 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] *******************************************************************************
+2019-08-10 02:23:21,479 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-10 02:23:21,500 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-10 02:23:21,508 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-10 02:23:21,885 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-10 02:23:22,118 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-10 02:23:22,344 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-10 02:23:22,626 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] ********************************************************************************
+2019-08-10 02:23:22,934 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 02:23:23,191 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 02:23:23,465 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 02:23:23,753 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 02:23:24,018 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-10 02:23:24,083 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-10 02:23:24,355 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] ********************************************************************************************
+2019-08-10 02:23:24,533 p=1 u=root |  ok: [10.1.10.11]
+2019-08-10 02:23:24,623 p=1 u=root |  ok: [10.1.10.12]
+2019-08-10 02:23:25,093 p=1 u=root |  ok: [10.1.10.13]
+2019-08-10 02:23:25,322 p=1 u=root |  ok: [10.1.10.21]
+2019-08-10 02:23:25,326 p=1 u=root |  ok: [10.1.10.22]
+2019-08-10 02:23:25,416 p=1 u=root |  ok: [10.1.10.23]
+2019-08-10 02:23:25,688 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] *********************************************************************************
+2019-08-10 02:23:35,621 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 02:23:36,521 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 02:23:36,605 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-10 02:23:36,654 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-10 02:23:40,760 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-10 02:28:32,559 p=1 u=root |  FAILED - RETRYING: Wait for BIG-IP to be available (10 retries left).
+2019-08-10 02:33:39,530 p=1 u=root |  FAILED - RETRYING: Wait for BIG-IP to be available (9 retries left).
+2019-08-10 02:38:46,512 p=1 u=root |  FAILED - RETRYING: Wait for BIG-IP to be available (8 retries left).
+2019-08-10 02:43:53,604 p=1 u=root |  FAILED - RETRYING: Wait for BIG-IP to be available (7 retries left).
+2019-08-10 02:49:00,553 p=1 u=root |  FAILED - RETRYING: Wait for BIG-IP to be available (6 retries left).
+2019-08-10 02:54:07,602 p=1 u=root |  FAILED - RETRYING: Wait for BIG-IP to be available (5 retries left).
+2019-08-10 02:59:14,796 p=1 u=root |  FAILED - RETRYING: Wait for BIG-IP to be available (4 retries left).
+2019-08-10 03:04:21,843 p=1 u=root |  FAILED - RETRYING: Wait for BIG-IP to be available (3 retries left).
+2019-08-10 03:09:28,941 p=1 u=root |  FAILED - RETRYING: Wait for BIG-IP to be available (2 retries left).
+2019-08-10 03:14:35,918 p=1 u=root |  FAILED - RETRYING: Wait for BIG-IP to be available (1 retries left).
+2019-08-10 03:19:42,952 p=1 u=root |  fatal: [10.1.10.22 -> localhost]: FAILED! => {"attempts": 10, "changed": false, "elapsed": 300, "msg": "Timeout when waiting for BIG-IP"}
+2019-08-10 03:19:43,211 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] *********************************************
+2019-08-10 03:19:43,498 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:19:43,712 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:19:44,000 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:19:44,190 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:19:44,259 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-10 03:19:44,443 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] **********************************************************
+2019-08-10 03:19:44,730 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:19:45,044 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:19:45,342 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:19:45,519 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:19:45,617 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-10 03:19:45,861 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ***************************************************
+2019-08-10 03:19:46,193 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:19:46,418 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:19:46,774 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:19:47,010 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:19:47,128 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-10 03:19:47,397 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] *********************************************
+2019-08-10 03:19:52,364 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-10 03:19:52,758 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 03:19:52,924 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-10 03:19:52,927 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 03:19:53,026 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-10 03:19:53,339 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] ****************************************
+2019-08-10 03:19:53,642 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:19:53,840 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:19:54,133 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:19:54,370 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:19:54,492 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-10 03:19:54,724 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] ********************************************************************
+2019-08-10 03:19:56,688 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 03:19:56,703 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-10 03:19:56,739 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-10 03:19:56,923 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-10 03:19:56,928 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 03:19:57,200 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] ******************************************************************************
+2019-08-10 03:20:03,194 p=1 u=root |  fatal: [10.1.10.23 -> localhost]: FAILED! => {"changed": false, "msg": "Failed to find the installed packages on the device."}
+2019-08-10 03:20:04,506 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 03:20:04,524 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-10 03:20:04,848 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 03:20:05,301 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-10 03:20:05,507 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] *******************************************************************************
+2019-08-10 03:20:05,772 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:06,005 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:06,244 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:06,305 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:06,564 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] ******************************************************************************
+2019-08-10 03:20:06,818 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:07,061 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:07,340 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:07,393 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:07,608 p=1 u=root |  TASK [Download and Install DO RPM] ***************************************************************************************************************************
+2019-08-10 03:20:09,992 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] *******************************************************************************
+2019-08-10 03:20:10,872 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-10 03:20:10,967 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-10 03:20:11,168 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-10 03:20:11,495 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-10 03:20:11,767 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] ********************************************************************************
+2019-08-10 03:20:12,072 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:12,282 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:12,541 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:12,614 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:12,714 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] ********************************************************************************************
+2019-08-10 03:20:13,024 p=1 u=root |  ok: [10.1.10.11]
+2019-08-10 03:20:13,303 p=1 u=root |  ok: [10.1.10.12]
+2019-08-10 03:20:13,579 p=1 u=root |  ok: [10.1.10.13]
+2019-08-10 03:20:13,683 p=1 u=root |  ok: [10.1.10.21]
+2019-08-10 03:20:13,994 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] *********************************************************************************
+2019-08-10 03:20:18,166 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-10 03:20:18,535 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-10 03:20:18,887 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 03:20:19,469 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 03:20:19,677 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] *********************************************
+2019-08-10 03:20:19,939 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:20,135 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:20,349 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:20,447 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:20,745 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] **********************************************************
+2019-08-10 03:20:21,025 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:21,250 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:21,485 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:21,619 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:21,964 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ***************************************************
+2019-08-10 03:20:22,276 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:22,535 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:22,798 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:22,894 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:23,172 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] *********************************************
+2019-08-10 03:20:24,923 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-10 03:20:25,048 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 03:20:25,107 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-10 03:20:25,338 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 03:20:25,559 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] ****************************************
+2019-08-10 03:20:25,825 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:26,061 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:26,351 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:26,436 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:26,718 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] ********************************************************************
+2019-08-10 03:20:27,708 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-10 03:20:27,721 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-10 03:20:27,936 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 03:20:28,222 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 03:20:28,481 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] ******************************************************************************
+2019-08-10 03:20:31,989 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 03:20:32,379 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-10 03:20:32,540 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-10 03:20:33,261 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 03:20:33,414 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] *******************************************************************************
+2019-08-10 03:20:33,655 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:33,845 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:34,115 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:34,232 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:34,499 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] ******************************************************************************
+2019-08-10 03:20:34,792 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:35,058 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:35,206 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:35,257 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:35,491 p=1 u=root |  TASK [Download and Install TS RPM] ***************************************************************************************************************************
+2019-08-10 03:20:38,109 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] *******************************************************************************
+2019-08-10 03:20:38,757 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-10 03:20:39,089 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-10 03:20:39,173 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-10 03:20:39,417 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-10 03:20:39,647 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] ********************************************************************************
+2019-08-10 03:20:39,886 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:40,149 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:40,389 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:40,475 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:40,703 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] ********************************************************************************************
+2019-08-10 03:20:40,948 p=1 u=root |  ok: [10.1.10.11]
+2019-08-10 03:20:41,157 p=1 u=root |  ok: [10.1.10.12]
+2019-08-10 03:20:41,453 p=1 u=root |  ok: [10.1.10.13]
+2019-08-10 03:20:41,574 p=1 u=root |  ok: [10.1.10.21]
+2019-08-10 03:20:41,848 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] *********************************************************************************
+2019-08-10 03:20:45,832 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-10 03:20:46,083 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-10 03:20:46,211 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 03:20:46,775 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 03:20:47,039 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mandatory parameter f5app_services_package_path is present] *********************************************
+2019-08-10 03:20:47,288 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:47,502 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:47,751 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:47,807 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:48,043 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Validate mutually exclusive parameters are not present] **********************************************************
+2019-08-10 03:20:48,328 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:48,492 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:48,733 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:48,859 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:49,338 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, no checksum validation] ***************************************************
+2019-08-10 03:20:49,649 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:49,892 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:50,165 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:50,280 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:50,516 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from url] *********************************************
+2019-08-10 03:20:53,293 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-10 03:20:53,494 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-10 03:20:53,548 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 03:20:53,729 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 03:20:54,042 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Download an RPM package to controller, checksum validation from variable] ****************************************
+2019-08-10 03:20:54,376 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:20:54,627 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:20:54,940 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:20:55,014 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:20:55,316 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check the RPM file is downloaded and present] ********************************************************************
+2019-08-10 03:20:56,319 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-10 03:20:56,327 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-10 03:20:56,506 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 03:20:56,910 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 03:20:57,223 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package After Download] ******************************************************************************
+2019-08-10 03:21:01,868 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 03:21:03,408 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-10 03:21:04,242 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-10 03:21:04,566 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 03:21:04,802 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Install RPM Package on the BIG-IP] *******************************************************************************
+2019-08-10 03:21:05,116 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:21:05,364 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:21:05,615 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:21:05,734 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:21:05,969 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Remove RPM Package from the BIG-IP] ******************************************************************************
+2019-08-10 03:21:06,204 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:21:06,456 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:21:06,763 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:21:06,854 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:21:06,893 p=1 u=root |  PLAY RECAP ***************************************************************************************************************************************************
+2019-08-10 03:21:06,894 p=1 u=root |  10.1.10.11                 : ok=19   changed=5    unreachable=0    failed=0    skipped=21   rescued=0    ignored=0   
+2019-08-10 03:21:06,894 p=1 u=root |  10.1.10.12                 : ok=19   changed=4    unreachable=0    failed=0    skipped=21   rescued=0    ignored=0   
+2019-08-10 03:21:06,894 p=1 u=root |  10.1.10.13                 : ok=19   changed=3    unreachable=0    failed=0    skipped=21   rescued=0    ignored=0   
+2019-08-10 03:21:06,895 p=1 u=root |  10.1.10.21                 : ok=19   changed=3    unreachable=0    failed=0    skipped=21   rescued=0    ignored=0   
+2019-08-10 03:21:06,895 p=1 u=root |  10.1.10.22                 : ok=3    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2019-08-10 03:21:06,895 p=1 u=root |  10.1.10.23                 : ok=6    changed=1    unreachable=0    failed=1    skipped=5    rescued=0    ignored=0   
+2019-08-10 03:31:31,824 p=1 u=root |  PLAY [Download and Install RPMs] *****************************************************************************************************************************
+2019-08-10 03:31:31,843 p=1 u=root |  TASK [Gathering Facts] ***************************************************************************************************************************************
+2019-08-10 03:31:41,205 p=1 u=root |  ok: [10.1.10.22]
+2019-08-10 03:31:41,880 p=1 u=root |  ok: [10.1.10.13]
+2019-08-10 03:31:42,841 p=1 u=root |  ok: [10.1.10.12]
+2019-08-10 03:31:43,328 p=1 u=root |  ok: [10.1.10.11]
+2019-08-10 03:31:43,461 p=1 u=root |  ok: [10.1.10.21]
+2019-08-10 03:31:50,261 p=1 u=root |  ok: [10.1.10.23]
+2019-08-10 03:31:50,475 p=1 u=root |  TASK [Install AS3 RPM] ***************************************************************************************************************************************
+2019-08-10 03:31:54,164 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Check if RPM exists on controller] *******************************************************************************
+2019-08-10 03:31:55,880 p=1 u=root |  changed: [10.1.10.11 -> localhost]
+2019-08-10 03:31:55,884 p=1 u=root |  changed: [10.1.10.12 -> localhost]
+2019-08-10 03:31:55,888 p=1 u=root |  changed: [10.1.10.13 -> localhost]
+2019-08-10 03:31:55,900 p=1 u=root |  changed: [10.1.10.21 -> localhost]
+2019-08-10 03:31:56,302 p=1 u=root |  changed: [10.1.10.22 -> localhost]
+2019-08-10 03:31:56,651 p=1 u=root |  changed: [10.1.10.23 -> localhost]
+2019-08-10 03:31:56,944 p=1 u=root |  TASK [f5devcentral.f5app_services_package : RPM is not installed raise error] ********************************************************************************
+2019-08-10 03:31:57,209 p=1 u=root |  skipping: [10.1.10.11]
+2019-08-10 03:31:57,437 p=1 u=root |  skipping: [10.1.10.12]
+2019-08-10 03:31:57,704 p=1 u=root |  skipping: [10.1.10.13]
+2019-08-10 03:31:58,032 p=1 u=root |  skipping: [10.1.10.21]
+2019-08-10 03:31:58,253 p=1 u=root |  skipping: [10.1.10.22]
+2019-08-10 03:31:58,336 p=1 u=root |  skipping: [10.1.10.23]
+2019-08-10 03:31:58,644 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Set Connection Facts] ********************************************************************************************
+2019-08-10 03:31:58,943 p=1 u=root |  ok: [10.1.10.11]
+2019-08-10 03:31:59,252 p=1 u=root |  ok: [10.1.10.12]
+2019-08-10 03:31:59,547 p=1 u=root |  ok: [10.1.10.13]
+2019-08-10 03:31:59,907 p=1 u=root |  ok: [10.1.10.21]
+2019-08-10 03:32:00,161 p=1 u=root |  ok: [10.1.10.22]
+2019-08-10 03:32:00,244 p=1 u=root |  ok: [10.1.10.23]
+2019-08-10 03:32:00,484 p=1 u=root |  TASK [f5devcentral.f5app_services_package : Wait for BIG-IP to be available] *********************************************************************************
+2019-08-10 03:32:05,191 p=1 u=root |  ok: [10.1.10.11 -> localhost]
+2019-08-10 03:32:05,449 p=1 u=root |  ok: [10.1.10.12 -> localhost]
+2019-08-10 03:32:05,463 p=1 u=root |  ok: [10.1.10.21 -> localhost]
+2019-08-10 03:32:05,878 p=1 u=root |  ok: [10.1.10.13 -> localhost]
+2019-08-10 03:32:09,908 p=1 u=root |  ok: [10.1.10.23 -> localhost]
+2019-08-10 03:37:02,825 p=1 u=root |  FAILED - RETRYING: Wait for BIG-IP to be available (10 retries left).
+2019-08-10 03:42:09,855 p=1 u=root |  FAILED - RETRYING: Wait for BIG-IP to be available (9 retries left).
