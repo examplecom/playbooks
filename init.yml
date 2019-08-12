@@ -37,3 +37,52 @@
         f5app_services_package_destination: "/tmp/f5-telemetry-1.5.0-1.noarch.rpm"
         f5app_services_package_checksum_url: "https://github.com/F5Networks/f5-telemetry-streaming/raw/master/dist/f5-telemetry-1.5.0-1.noarch.rpm.sha256"
         f5app_services_package_path: "/tmp/f5-telemetry-1.5.0-1.noarch.rpm"
+
+- name: F5 Declarative Onboarding
+  hosts: bigips
+  connection: local
+  gather_facts: true
+
+  tasks:
+
+  - name: PUSH Onboarding Declaration
+    uri:
+      url: "https://{{ ansible_host }}/mgmt/shared/declarative-onboarding"
+      method: POST
+      body: "{{ lookup('template','declarations/do.j2', split_lines=False) }}"
+      status_code: 200,202
+      timeout: 300
+      body_format: json
+      force_basic_auth: yes
+      user: admin
+      password: admin
+      validate_certs: no
+    delegate_to: localhost
+
+- name: F5 Application Services
+  hosts: bigips
+  connection: local
+  gather_facts: true
+
+  vars:
+    pool_members: "{{ groups['webservers'] }}"
+
+  tasks:
+
+  - name: CREATE AS3 JSON BODY
+    set_fact:
+      as3_app_body: "{{ lookup('template', 'j2/as3_template.j2', split_lines=False) }}"
+
+  - name: PUSH AS3
+    uri:
+      url: "https://{{ ansible_host }}/mgmt/shared/appsvcs/declare"
+      method: POST
+      body: "{{ lookup('template','j2/tenant_base.j2', split_lines=False) }}"
+      status_code: 200
+      timeout: 300
+      body_format: json
+      force_basic_auth: yes
+      user: admin
+      password: admin
+      validate_certs: no
+    delegate_to: localhost

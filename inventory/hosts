@@ -1,7 +1,14 @@
 [bigips]
-10.1.10.11
+10.1.10.11 ansible_host=10.1.10.11
+10.1.10.12 ansible_host=10.1.10.12
+10.1.10.13 ansible_host=10.1.10.13
+10.1.10.21 ansible_host=10.1.10.21
+10.1.10.22 ansible_host=10.1.10.22
+10.1.10.23 ansible_host=10.1.10.23
+
+[webservers]
+host1 private_ip=5.5.5.5 ansible_host=10.1.10.11
+host2 private_ip=5.5.5.6 ansible_host=10.1.10.12
+
+[testing]
 10.1.10.12
-10.1.10.13
-10.1.10.21
-10.1.10.22
-10.1.10.23
